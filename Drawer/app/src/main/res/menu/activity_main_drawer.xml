@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Akun" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Pemesanan" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_cached_black_24dp"
+            android:title="Komplain" />
+    </group>
+
+    <item android:title="Lainnya">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Setting" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>
