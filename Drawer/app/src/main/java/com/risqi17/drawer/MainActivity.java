@@ -148,7 +148,8 @@ public class MainActivity extends AppCompatActivity
             logout();
         }
         if (id == R.id.pesan) {
-            return true;
+            Intent i = new Intent(getApplicationContext(), Pesan.class);
+            startActivity(i);
         }
 
         return super.onOptionsItemSelected(item);
@@ -165,16 +166,18 @@ public class MainActivity extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.nav_pemesanan) {
+            Intent i = new Intent(getApplicationContext(), Pemesanan.class);
+            startActivity(i);
 
         } else if (id == R.id.nav_komplain) {
+            Intent i = new Intent(getApplicationContext(), Saran.class);
+            startActivity(i);
 
-        } else if (id == R.id.nav_setting) {
-
-        } else if (id == R.id.nav_logout) {
+        }  else if (id == R.id.nav_logout) {
             logout();
 
         } else if (id == R.id.nav_keluar) {
-
+            finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

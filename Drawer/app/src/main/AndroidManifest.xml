@@ -35,9 +35,18 @@
         <activity
             android:name=".LupaPassword"
             android:screenOrientation="portrait" />
-        <activity android:name=".Akun"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".Pemesanan"></activity>
+        <activity
+            android:name=".Akun"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Pemesanan"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity
+            android:name=".Pesan"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Saran"
+            android:parentActivityName=".MainActivity" ></activity>
     </application>
 
 </manifest>

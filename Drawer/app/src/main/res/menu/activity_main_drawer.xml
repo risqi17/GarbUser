@@ -13,15 +13,11 @@
         <item
             android:id="@+id/nav_komplain"
             android:icon="@drawable/ic_cached_black_24dp"
-            android:title="Komplain" />
+            android:title="Saran" />
     </group>
 
     <item android:title="Lainnya">
         <menu>
-            <item
-                android:id="@+id/nav_setting"
-                android:icon="@drawable/ic_menu_manage"
-                android:title="Setting" />
             <item
                 android:id="@+id/nav_logout"
                 android:icon="@drawable/ic_exit_to_app_black_24dp"
