@@ -26,10 +26,11 @@ public class SplashScreen extends Activity {
                 startActivity (i);
                 //jeda splashscreen
                 this.finish();
+
             }
 
             private void finish (){
-
+                finish();
             }
         },splashInterval);
     };

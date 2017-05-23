@@ -23,6 +23,7 @@ public class Pesan extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pesan);
+        getSupportActionBar().setTitle("Pilih Penjahit");
 
         //VolleyJSON
 

@@ -54,16 +54,34 @@ public class MainActivity extends AppCompatActivity
     //stageredGridVIew
     private StaggeredGridView staggeredGridView;
     private String[] items = new String[]{
-            "http://pre00.deviantart.net/dfe2/th/pre/f/2016/187/9/5/screen_shot_2016_07_05_at_1_54_36_pm_by_chasingartwork-da8zklg.png",
-            "http://orig06.deviantart.net/c9c2/f/2017/055/5/6/screen_shot_2017_02_24_at_1_34_16_pm_by_chasingartwork-db08403.png",
-            "http://pre07.deviantart.net/cb2b/th/pre/f/2016/273/a/7/screen_shot_2016_09_29_at_12_09_11_pm_by_chasingartwork-dajdzni.png",
-            "http://pre02.deviantart.net/f794/th/pre/f/2015/113/b/4/screen_shot_2015_04_23_at_3_34_14_am_by_chasingartwork-d8qqh44.png",
-            "http://pre04.deviantart.net/4cdc/th/pre/i/2013/357/c/4/auto_avenger__hawkeye_by_chasingartwork-d6z1kig.jpg",
-            "http://pre14.deviantart.net/7380/th/pre/i/2013/161/1/5/auto_avenger__venom_by_chasingartwork-d68ipvr.jpg",
-            "http://pre04.deviantart.net/a1f9/th/pre/f/2012/358/8/3/8382505e18ee5bed1603570501971bd3-d5p0gc6.jpg",
-            "http://orig11.deviantart.net/a985/f/2013/057/7/5/auto_avengers__iron_man_by_chasingartwork-d5wd4vk.jpg",
-            "http://pre07.deviantart.net/7c04/th/pre/i/2013/165/f/9/dark_spidy_by_chasingartwork-d68zd68.jpg",
-            "http://pre03.deviantart.net/fe16/th/pre/i/2013/169/8/5/auto_avenger__doom_by_chasingartwork-d69dfam.jpg"
+            "https://1.bp.blogspot.com/-rVeofFMBPn8/VPaTq51UxiI/AAAAAAAAGog/ODhu_80iMes/s400/Contoh%2BDesain%2BKemeja%2BMuslim%2BWanita%2BModern.png",
+            "http://1.bp.blogspot.com/-FyD9aoAc3z4/VoiPD1dI-zI/AAAAAAAAnE8/SEw2p79ax88/s1600/Contoh%2BBusana%2BMuslim%2BWanita%2BFormal%2BElegan%2B2016.png",
+            "http://caraberhijab.net/wp-content/uploads/2016/04/Model-Kemeja-Wanita-Modern.jpg",
+            "http://stylecantik.com/wp-content/uploads/2016/04/Model-Baju-Kemeja-Pria-Lengan-Panjang.jpg",
+            "http://caraberhijab.net/wp-content/uploads/2016/04/Model-Kemeja-Kerja-Wanita-Terbaru.jpg",
+            "http://klikplaza.com/wp-content/uploads/2013/07/atypical-man-4770-39398-1-zoom.jpg",
+            "http://caraberhijab.net/wp-content/uploads/2016/04/Model-Kemeja-Polos-Terbaru.jpg",
+            "http://2.bp.blogspot.com/-AnjYAvm2ll4/VZkPkeP8O9I/AAAAAAAACkU/3BR75bf4ZrA/s1600/gambar-baju-kemeja-remaja-wanita-trend%252B10.jpg",
+            "http://caraberhijab.net/wp-content/uploads/2016/04/Kemeja-Wanita-Bahan-Denim.jpg",
+            "http://infokebaya.com/wp-content/uploads/2017/01/model-baju-kemeja-lengan-panjang-2017.png",
+            "https://2.bp.blogspot.com/-4Oap3-BMDsQ/V1Poj3ozAxI/AAAAAAAAC0E/l9D_PQ4V5YgZqkznGlbZz5qRNIx83egtACLcB/s1600/Model%2BKemeja%2BPria%2BTerbaru.jpg",
+            "http://caraberhijab.net/wp-content/uploads/2016/04/Model-Kemeja-Yang-Sedang-Trend.jpg",
+            "http://infokebaya.com/wp-content/uploads/2017/01/model-kemeja-wanita-terbaru-lengan-panjang-2017.png",
+            "https://3.bp.blogspot.com/-bw9DY239_yk/V1Po1p2a3ZI/AAAAAAAAC0c/abrGkDZcbekArV69UJOOZS-5Vk2uv4iWACLcB/s1600/Contoh%2BKemeja%2BPria%2BWarna%2BAbu.jpg",
+            "http://infokebaya.com/wp-content/uploads/2017/01/baju-kemeja-pria-lengan-panjang-2017-1.png",
+            "http://styleremaja.com/wp-content/uploads/2016/11/Kemeja-Putih-Pria-Branded-2017.jpg",
+            "http://busanamuslimodis.com/wp-content/uploads/2015/09/Model-baju-Koko-Lengan-Panjang.png",
+            "https://dynamic.zacdn.com/mWYXv0bWrf46ZQzBGclV1hC4n70=/fit-in/236x345/filters:quality(90):fill(ffffff)/http://static.id.zalora.net/p/carvil-3106-4402711-1.jpg",
+            "http://bajukokoputih.co.id/wp-content/uploads/2016/11/baju-koko-putih-miqdad.jpg",
+            "http://stylebajumuslim.com/wp-content/uploads/2016/11/Kemeja-Wanita-Lengan-Panjang-Terbaru-2017.jpg",
+            "http://bajumodelbaru.biz/wp-content/uploads/2016/10/Model-Celana-Kulot-Panjang.jpg",
+            "https://wp.hijup.com/wp-content/uploads/2017/01/celana-kulot-terbaru-5-683x1024.jpg",
+            "http://fashionsmodern.com/wp-content/uploads/2016/10/Model-Celana-Kulot-Batik.jpg",
+            "https://ecs7.tokopedia.net/img/product-1/2016/2/9/886576/886576_e541bfc9-f4f6-4b82-aff4-6568e5b3f52e.jpg",
+            "https://s0.bukalapak.com/img/021054941/large/CelanaKatunFormal_1_scaled.jpg",
+            "https://ecs7.tokopedia.net/img/cache/200-square/product-1/2015/12/17/1112937/1112937_9d8356a1-5071-4854-8b20-4481a3e30335.jpg",
+            "https://s2.bukalapak.com/img/785668183/large/celana_aladin_murah_celama_wanita_modern_.jpg"
+
     };
 
     @Override
@@ -72,6 +90,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Home");
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(

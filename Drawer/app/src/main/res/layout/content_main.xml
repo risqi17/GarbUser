@@ -20,7 +20,7 @@ app:layout_behavior="@string/appbar_scrolling_view_behavior">
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/gv_staggered"
-        android:layout_margin="8dp"
+        android:layout_margin="0dp"
         app:column_count="2">
 
     </com.etsy.android.grid.StaggeredGridView>
