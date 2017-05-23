@@ -6,12 +6,12 @@ package com.risqi17.drawer;
 
 public class Config {
     //URL to our login.php file
-    public static final String IP = "192.168.43.154";
-    public static final String LOGIN_URL = "http://"+IP+"/Garb/API/userLogin.php";
-    public static final String REGISTER_URL = "http://"+IP+"/Garb/API/userRegister.php";
-    public static final String LUPA_PASSWORD_URL = "http://"+IP+"/Garb/API/userLupaPassword.php";
-    public static final String SARAN_URL = "http://"+IP+"/Garb/API/saran.php";
-    public static final String JSON_GET_PENJAHIT = "http://"+IP+"/Garb/API/userGetPenjahit.php";
+    public static final String IP = "garb.hol.es/API";
+    public static final String LOGIN_URL = "http://"+IP+"/userLogin.php";
+    public static final String REGISTER_URL = "http://"+IP+"/userRegister.php";
+    public static final String LUPA_PASSWORD_URL = "http://"+IP+"/userLupaPassword.php";
+    public static final String SARAN_URL = "http://"+IP+"/saran.php";
+    public static final String JSON_GET_PENJAHIT = "http://"+IP+"/userGetPenjahit.php";
 
     //Keys for email and password as defined in our $_POST['key'] in login.php
     public static final String KEY_ID = "id";

@@ -92,6 +92,7 @@ public class Login extends Activity implements View.OnClickListener {
             //We will start the Profile Activity
             Intent intent = new Intent(Login.this, MainActivity.class);
             startActivity(intent);
+            finish();
         }
     }
 
@@ -123,6 +124,7 @@ public class Login extends Activity implements View.OnClickListener {
                             //Starting profile activity
                             Intent intent = new Intent(Login.this, MainActivity.class);
                             startActivity(intent);
+                            finish();
                         }else{
                             //If the server response is not success
                             //Displaying an error message on toast

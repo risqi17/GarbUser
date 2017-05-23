@@ -40,13 +40,14 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Pemesanan"
-            android:parentActivityName=".MainActivity"
-            />
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Pesan"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".Saran"
-            android:parentActivityName=".MainActivity" ></activity>
+        <activity
+            android:name=".Saran"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".DetailImageActivity"></activity>
     </application>
 
 </manifest>
