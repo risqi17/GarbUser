@@ -48,8 +48,11 @@
             android:name=".Saran"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".DetailImageActivity" />
-        <activity android:name=".PilihPesanan"
-            android:parentActivityName=".Pesan"></activity>
+        <activity
+            android:name=".PilihPesanan"
+            android:parentActivityName=".Pesan" />
+        <activity android:name=".Celana" />
+        <activity android:name=".Kemeja"></activity>
     </application>
 
 </manifest>
