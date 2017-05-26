@@ -1,9 +1,11 @@
 package com.risqi17.drawer;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
@@ -30,6 +32,13 @@ public class Pesan extends AppCompatActivity {
 
         //recyclerview
         recyclerView= (RecyclerView) findViewById(R.id.recycler_view);
+        recyclerView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), PilihPesanan.class);
+                startActivity(i);
+            }
+        });
         //menampilkan reyclerview yang ada pada file layout dengan id reycler view
 
         RecyclerAdapter adapter=new RecyclerAdapter(this);
