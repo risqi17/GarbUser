@@ -65,6 +65,8 @@ public class RecyclerAdapter extends  RecyclerView.Adapter<RecyclerViewHolder> {
             //Intent i = new Intent(getApplicationContext(), PilihPesanan.class);
 
             //Toast.makeText(context, "Menu ini berada di posisi " + position, Toast.LENGTH_LONG).show();
+            Intent i  = new Intent(context, PilihPesanan.class);
+            context.startActivity(i);
 
 
         }

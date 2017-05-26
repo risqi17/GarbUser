@@ -9,6 +9,7 @@ import android.widget.Button;
 public class PilihPesanan extends AppCompatActivity {
     private Button celana;
     private Button kemeja;
+    String jenis;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,14 +22,14 @@ public class PilihPesanan extends AppCompatActivity {
         celana.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), Celana.class);
+                Intent i = new Intent(getApplicationContext(), Celana.class).putExtra("celana", jenis);
                 startActivity(i);
             }
         });
         kemeja.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), Kemeja.class);
+                Intent i = new Intent(getApplicationContext(), Kemeja.class).putExtra("kemeja", jenis);
                 startActivity(i);
             }
         });

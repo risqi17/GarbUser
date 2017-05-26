@@ -51,8 +51,10 @@
         <activity
             android:name=".PilihPesanan"
             android:parentActivityName=".Pesan" />
-        <activity android:name=".Celana" />
-        <activity android:name=".Kemeja"></activity>
+        <activity android:name=".Celana"
+            android:parentActivityName=".PilihPesanan"/>
+        <activity android:name=".Kemeja"
+            android:parentActivityName=".PilihPesanan"></activity>
     </application>
 
 </manifest>

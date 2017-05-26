@@ -32,13 +32,7 @@ public class Pesan extends AppCompatActivity {
 
         //recyclerview
         recyclerView= (RecyclerView) findViewById(R.id.recycler_view);
-        recyclerView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), PilihPesanan.class);
-                startActivity(i);
-            }
-        });
+
         //menampilkan reyclerview yang ada pada file layout dengan id reycler view
 
         RecyclerAdapter adapter=new RecyclerAdapter(this);
