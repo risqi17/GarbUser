@@ -77,7 +77,8 @@ public class Celana extends AppCompatActivity implements View.OnClickListener {
         String ids = sharedPreferences.getString(Config.ID_SHARED_PREF, "Not Available");
 
         final String user = ids;
-        final String model = "Celana";
+        final String model = "Celana" +
+                "";
         final String ukuran = spUkuran.getSelectedItem().toString().trim();
         final String warna = spWarna.getSelectedItem().toString().trim();
         final String jenisKemeja = jenis;

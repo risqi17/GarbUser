@@ -14,9 +14,9 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="75dp"
+            android:layout_width="150dp"
             android:layout_marginLeft="20dp"
-            android:layout_height="75dp"
+            android:layout_height="150dp"
             android:layout_marginTop="50dp"
             android:src="@drawable/boy" />
         <LinearLayout
@@ -28,20 +28,24 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Garb User"
+                android:text="risqi17"
+                android:id="@+id/id"
+                android:textSize="40sp"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="risqi17"
-                android:id="@+id/id"
+                android:text="Garb User"
                 />
+
         </LinearLayout>
 
     </LinearLayout>
     <View android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:layout_margin="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="50dp"
         android:layout_below="@+id/LL1"
         android:background="#bbb"
         android:id="@+id/view" />
@@ -50,9 +54,19 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Detail Akun"
-        android:layout_marginTop="115dp"
+        android:text="Ordered"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
         android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:textSize="90sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

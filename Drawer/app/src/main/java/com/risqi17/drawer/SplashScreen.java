@@ -25,12 +25,8 @@ public class SplashScreen extends Activity {
                 Intent i = new Intent(getApplicationContext(), Login.class);
                 startActivity (i);
                 //jeda splashscreen
-                this.finish();
-
-            }
-
-            private void finish (){
                 finish();
+
             }
         },splashInterval);
     };

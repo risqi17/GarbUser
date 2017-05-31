@@ -6,12 +6,10 @@
     android:layout_height="match_parent"
     tools:context="com.risqi17.drawer.Pemesanan">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
+    <ListView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="List Pemesanan"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="217dp" />
+        android:id="@+id/list_view">
+
+    </ListView>
 </RelativeLayout>
