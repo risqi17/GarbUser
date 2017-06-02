@@ -17,10 +17,12 @@ public class Akun extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_akun);
 
-        getSupportActionBar().setTitle("Profil");
-
         SharedPreferences sharedPreferences = getSharedPreferences(Config.SHARED_PREF_NAME, Context.MODE_PRIVATE);
         String ids = sharedPreferences.getString(Config.ID_SHARED_PREF, "Not Available");
+
+        getSupportActionBar().setTitle(ids);
+
+
 
         id = (TextView)findViewById(R.id.id);
         id.setText(ids);
