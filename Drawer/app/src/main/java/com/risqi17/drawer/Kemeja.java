@@ -7,6 +7,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Spinner;
 
+
 public class Kemeja extends AppCompatActivity {
     private RadioButton radioPj, radioPd;
     private Spinner spUkuran, spWarna;
@@ -28,12 +29,12 @@ public class Kemeja extends AppCompatActivity {
         etKeterangan = (EditText)findViewById(R.id.etKeterangan);
         etJumlah = (EditText)findViewById(R.id.etJumlah);
 
-        String [] ukuran = {"S","M","L","XL"};
+        String [] ukuran = {"S","M","L","XL"}
         ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, ukuran);
         spUkuran.setAdapter(adapter);
 
         String [] warna = {"Biru","Hitam","Putih","Abu-abu"};
         ArrayAdapter adapt = new ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, warna);
-        spWarna.setAdapter(adapt);
+        spWarna.setAdapter(adapter);
     }
 }
